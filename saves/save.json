@@ -1,0 +1,250 @@
+{
+  "grid": {
+    "rows": 5,
+    "cols": 9,
+    "cells": [
+      [
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": true,
+          "discovered": true,
+          "name": "Antichambre",
+          "image_name": "sortie.png",
+          "room_type": "exit",
+          "cost_gems": 0,
+          "effect_data": {
+            "escape": true
+          },
+          "color_type": "blue",
+          "rarity": 0
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        }
+      ],
+      [
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        }
+      ],
+      [
+        {
+          "exists": true,
+          "discovered": true,
+          "name": "Grand Couloir",
+          "image_name": "room_default.png",
+          "room_type": "corridor",
+          "cost_gems": 0,
+          "effect_data": {},
+          "color_type": "orange",
+          "rarity": 0
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        }
+      ],
+      [
+        {
+          "exists": true,
+          "discovered": true,
+          "name": "Couloir",
+          "image_name": "room_default.png",
+          "room_type": "neutral",
+          "cost_gems": 0,
+          "effect_data": {},
+          "color_type": "blue",
+          "rarity": 0
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        }
+      ],
+      [
+        {
+          "exists": true,
+          "discovered": true,
+          "name": "Entrée",
+          "image_name": "entry.png",
+          "room_type": "start",
+          "cost_gems": 0,
+          "effect_data": {},
+          "color_type": "blue",
+          "rarity": 0
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        },
+        {
+          "exists": false,
+          "discovered": false
+        }
+      ]
+    ]
+  },
+  "inventory": {
+    "steps": 68,
+    "gems": 2,
+    "keys": 0,
+    "dice": 0,
+    "gold": 0,
+    "permanents": {
+      "shovel": false,
+      "hammer": false,
+      "picklock_kit": false,
+      "metal_detector": false,
+      "rabbit_foot": false
+    }
+  },
+  "player": {
+    "row": 2,
+    "col": 0
+  },
+  "metadata": {
+    "save_date": "2025-11-16 21:39:42",
+    "game_version": "1.0"
+  }
+}

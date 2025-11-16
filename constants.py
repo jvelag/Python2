@@ -1,7 +1,22 @@
 # constants.py
 """Constantes globales du projet (taille fenêtre, couleurs, etc.)."""
 
-WINDOW_WIDTH = 800
+import os
+
+# Root directory of the project
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Assets directories
+ASSETS_DIR = os.path.join(ROOT_DIR, "assets")
+ROOM_IMG_DIR = os.path.join(ASSETS_DIR, "rooms")
+ICON_DIR = os.path.join(ASSETS_DIR, "icons")
+FONT_DIR = os.path.join(ASSETS_DIR, "fonts")
+AUDIO_DIR = os.path.join(ASSETS_DIR, "audio")
+MUSIC_DIR = os.path.join(AUDIO_DIR, "music")
+SFX_DIR = os.path.join(AUDIO_DIR, "effects")
+
+
+WINDOW_WIDTH = 1256
 WINDOW_HEIGHT = 600
 FPS = 30
 
